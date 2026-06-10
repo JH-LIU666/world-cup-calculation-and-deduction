@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #F8FAFC;
+}
+
+/* ── Darker vertical scrollbar (page-level) ── */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #64748B #F1F5F9;
+}
+html::-webkit-scrollbar {
+  width: 8px;
+}
+html::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+html::-webkit-scrollbar-thumb {
+  background: #64748B;
+  border-radius: 9999px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* ── Bracket vertical scrollbar ── */
+.scrollbar-vertical {
+  scrollbar-width: thin;
+  scrollbar-color: #64748B #F1F5F9;
+}
+.scrollbar-vertical::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar-vertical::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+.scrollbar-vertical::-webkit-scrollbar-thumb {
+  background: #64748B;
+  border-radius: 9999px;
+}
+.scrollbar-vertical::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
